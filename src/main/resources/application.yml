@@ -1,0 +1,13 @@
+spring:
+  batch:
+    job:
+      enabled: false
+  datasource:
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    url: jdbc:sqlserver://localhost:1433;databaseName=enquiry-demo;encrypt=true;TrustServerCertificate=true;
+    username: admin
+    password: "@Du99fpt@1234"
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
